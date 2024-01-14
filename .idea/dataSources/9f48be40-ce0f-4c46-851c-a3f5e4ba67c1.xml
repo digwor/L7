@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="db.sqlite3">
+<dataSource name="Django default">
   <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.51">
     <root id="1">
       <ServerVersion>3.43.0</ServerVersion>
@@ -446,7 +446,7 @@
     <routine id="176" parent="1" name="fts5"/>
     <schema id="177" parent="1" name="main">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-01-09.11:58:50</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-01-11.12:45:23</LastIntrospectionLocalTimestamp>
     </schema>
     <argument id="178" parent="16">
       <ArgumentDirection>R</ArgumentDirection>
