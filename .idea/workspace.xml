@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01cca90c-bd97-4feb-a3b7-3602d649c2ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/products/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/038f4ae1-8553-411d-b5a0-fb92d2c28e5e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/038f4ae1-8553-411d-b5a0-fb92d2c28e5e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/migrations/0002_alter_category_name_alter_product_description_and_more.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopback/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopback/settings.py" afterDir="false" />
@@ -45,13 +57,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2aiRCZxJlgN6pnEPMr2tXjOc8w6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -100,7 +115,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -116,10 +131,32 @@
       <workItem from="1704977064825" duration="1631000" />
       <workItem from="1705145478413" duration="13834000" />
       <workItem from="1705224217277" duration="3527000" />
+      <workItem from="1705591075426" duration="45000" />
+      <workItem from="1707145062835" duration="84000" />
+      <workItem from="1707145243332" duration="1340000" />
+      <workItem from="1707221304691" duration="4840000" />
+      <workItem from="1707312448555" duration="7290000" />
+      <workItem from="1707463075391" duration="3625000" />
+      <workItem from="1707572125434" duration="7280000" />
+      <workItem from="1707622571781" duration="6865000" />
+      <workItem from="1707634903078" duration="1267000" />
+      <workItem from="1707720729608" duration="1546000" />
+      <workItem from="1707722307970" duration="1961000" />
+      <workItem from="1707724287169" duration="367000" />
+      <workItem from="1707724672179" duration="411000" />
+      <workItem from="1707725107880" duration="1101000" />
+      <workItem from="1707726236591" duration="958000" />
+      <workItem from="1707727861453" duration="3862000" />
+      <workItem from="1707731749127" duration="513000" />
+      <workItem from="1707732326163" duration="310000" />
+      <workItem from="1707732649993" duration="4861000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
